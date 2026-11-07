@@ -50,6 +50,4 @@ The **Development Shell** runs in Docker as a separate process and allows develo
 - **Lifecycle:** Connections to external resources are created at startup and properly closed when the API or development shell shuts down, including in error scenarios.
 - **Testing:** Tests cover all four API functions, valid and invalid input, and error handling. Tests are not shown as a separate container because they are not part of the running system.
 
-**Note:** FastAPI, Uvicorn, PostgreSQL, SQLAlchemy, and asyncpg are proposed implementation technologies, not mandatory technologies specified in Task 20. The requirements explicitly name Pydantic, uvloop, IPython, and Docker.
-
 **Diagram source:** Mermaid block in this Markdown file. Method: [C4 — Container Diagram](https://c4model.com/diagrams/container).
