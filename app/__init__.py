@@ -1,0 +1,1 @@
+"""Minimal authentication API MVP."""

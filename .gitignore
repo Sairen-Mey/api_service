@@ -1,2 +1,9 @@
 c4-level-1ukr.md
 c4-level-2ukr.md
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.idea
+zipka
